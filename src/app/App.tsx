@@ -1,8 +1,11 @@
 import { PageProvider } from "./providers/PageProvider"
+import StoreProvider from "./providers/StoreProvider"
 
 function App() {
   return (
-    <PageProvider />
+    <StoreProvider>
+      <PageProvider />
+    </StoreProvider>
   )
 }
 
