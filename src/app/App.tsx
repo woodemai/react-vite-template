@@ -1,5 +1,5 @@
 import { PageProvider } from "./providers/PageProvider"
-import StoreProvider from "./providers/StoreProvider"
+import StoreProvider from "./providers/StoreProvider/StoreProvider"
 
 function App() {
   return (
